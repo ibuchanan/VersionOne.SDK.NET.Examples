@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9D061C1B-0013-42A8-9048-4A1E41E9105D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersionOne.FilterWorkitemsOnEpic", "VersionOne.FilterWorkitemsOnEpic\VersionOne.FilterWorkitemsOnEpic.csproj", "{E8715C73-B5BE-4405-A73C-9EC9AD3B3FA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F993E5B8-31E3-43EA-BE81-D3C1EDD6ED15}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		VersionOne.SDK.NET.Examples.vsmdi = VersionOne.SDK.NET.Examples.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = VersionOne.SDK.NET.Examples.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8715C73-B5BE-4405-A73C-9EC9AD3B3FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8715C73-B5BE-4405-A73C-9EC9AD3B3FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8715C73-B5BE-4405-A73C-9EC9AD3B3FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8715C73-B5BE-4405-A73C-9EC9AD3B3FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
